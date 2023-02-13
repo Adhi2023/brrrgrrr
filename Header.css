@@ -1,0 +1,88 @@
+.header{
+    height:120px;
+    display:flex;
+    align-items: center;
+    position: sticky;
+    background-color:#b38600;
+    top:0;
+    z-index: 100;
+}
+.headerlogo{
+    width:200px;
+    height:100px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    object-fit: contain;
+}
+.headerSearch{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 25px;
+}
+.headerSearchInput{
+    width:70%;
+    height:20px;
+    border:none;
+}
+.headerSearchIcon{
+    height:20px;
+    padding: 4px; 
+    color: white;
+    background-color: #cc9900;
+    cursor: pointer;
+}
+.headerNavbar{
+    display: flex;
+    justify-content: space-evenly;
+}
+.headeroption{
+    display:flex;
+    flex-direction: column;
+    margin-right: 5px;
+    color:white;
+}
+.headeroption1{
+    display:flex;
+    flex-direction: column;
+    margin-left: 2px;
+    margin-right: 15px;
+    color:white;
+}
+.headeroffersText{
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.headeroffersText:hover{
+    transform: scale(1.2);
+    z-index: 2;
+    transition-duration: 0.3s;
+}
+.headerLoginText{
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.headerLoginText:hover{
+    transform: scale(1.2);
+    z-index: 2;
+    transition-duration: 0.3s;
+}
+.headerCartText{
+    font-size: 18px;
+    font-weight: 700;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.headerCartText:hover{
+    transform: scale(1.2);
+    z-index: 2;
+    transition-duration: 0.3s;
+}
+.headerCartIcon{
+    display:flex;
+    align-items: center;
+}

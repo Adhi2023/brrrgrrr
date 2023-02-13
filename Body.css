@@ -1,0 +1,90 @@
+.body{
+    background-color: #b38600;
+}
+.price{
+    background-color: black;
+    
+    margin-left:635px;
+    margin-right:635px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-radius: 4%;
+    border: white;
+}
+.body1{
+    justify-content: space-evenly;
+}
+.img{
+    height:270px;
+    width:350px;
+    margin-left:5px ;
+    margin-right:5px ;
+}
+.prices{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.items{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.text{
+    font-size:40px;
+    color:white;
+    font-family: monospace;
+    font-weight: 500;
+}
+.chooseYourBurger{
+    margin-top:10px;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 30px;
+    background-color: white;
+    padding-bottom: 5px;
+}
+.choose{
+    background-color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 800;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.options{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.option1{
+    background-color: #e6e600;
+    padding-left:37px;
+    padding-right: 37px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+    
+}
+.option1:hover,option1:focus,option1:active{
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.totalAmount{
+    margin-right: 150px;
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 10px;
+    
+}
